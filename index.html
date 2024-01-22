@@ -256,42 +256,163 @@
 
         </section>
 
+        <!-- client says section -->
         <section>
             <div>
-                <h2 class="text-4xl text-center">
+                <h2 class="text-4xl text-center font-bold">
                     Happy <span class="text-bike_btn"> Clients says</span>
                 </h2>
             </div>
 
-            <div class="flex">
-                <div class="py-10 px-9">
-                    <img src="images/others/user-1.png" alt="" class="w-36 h-36 rounded-full">
-                    <p>
-                        Slate helps you see how
-                        many more days you need
-                        to work to reach your financial
-                        goal for the month and year.
-                    </p>
-                    <div class="flex justify-center items-center w-10">
-                        <img src="images/icons/star-solid.svg" alt="">
-                        <img src="images/icons/star-solid.svg" alt="">
-                        <img src="images/icons/star-solid.svg" alt="">
-                        <img src="images/icons/star-half-stroke-solid.svg" alt="">
-                        <img src="images/icons/star-regular.svg" alt="">
+            <!-- client section -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-12 gap-5 ">
+                <!-- client participant 1 -->
+                <div class="card p-10 w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-2.png" alt="" class="rounded-xl w-36" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-info">
+                            Regina Miles
+                        </p>
+                        <div class="card-actions">
+                            <h3 class="text-md font-bold">Banker</h3>
+                        </div>
                     </div>
-                    <h5 class="text-blue-500 font-bold">
-                        Regina Miles
-                    </h5>
                 </div>
+                <!-- client participant 2 -->
+                <div class="card p-10 w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-1.png" alt="Shoes" class="rounded-xl w-36" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-info">
+                            Regina Miles
+                        </p>
+                        <div class="card-actions">
+                            <h3 class="text-md font-bold">Banker</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- client participant 3 -->
+                <div class="card p-10 w-96 bg-base-100 shadow-xl md:col-span-2 lg:col-span-1 md:mx-auto">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/others/user-3.png" alt="Shoes" class="rounded-xl w-36" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <p>Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <p class="text-info">
+                            Regina Miles
+                        </p>
+                        <div class="card-actions">
+                            <h3 class="text-md font-bold">Banker</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
 
+        <!-- FAQ section -->
+        <section class="m-20">
+            <div class="text-center m-2/3 lg:m-20">
+                <h1 class="text-3xl font-black">Frequently Asked <span class="text-bike_btn">Questions </span></h1>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-around lg:p-12 gap-12">
+
+                <div class="flex-1">
+                    <img src="images/others/Frame.png" alt="" class="h-[300px] w-[350px]">
+                </div>
+                <div class="flex-1">
+                    <div class="join join-vertical w-auto">
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                    laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This
+                                    will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" />
+                            <div class="collapse-title text-xl font-medium">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" />
+                            <div class="collapse-title text-xl font-medium">
+                                My bike has been in storage is it safe to ride?
+                            </div>
+                            <div class="collapse-content">
+                                <p>hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
 
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <aside>
+            
+            <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+        </aside>
+        <nav>
+            <header class="footer-title">Social</header>
+            <div class="grid grid-col-1 gap-4">
+                <a><img class="w-36" src="images/others/android.png" alt=""></a>
+                <a><img  class="w-36" src="images/others/ios.png" alt=""></a>
+               
+            </div>
+        </nav>
     </footer>
+
 
 </body>
 
